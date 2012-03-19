@@ -1,19 +1,4 @@
 import random
-#   class CellGroup(list):
-#       def __init__(self, x, y):
-#           self.x = x
-#           self.y = y
-#           #self = [range(0,3) for i in range(0,3)]
-#           self = [[1,2,3],[],[],]
-#
-#       def __repr__(self):
-#           return "kjhkjh"
-#
-#
-#   print CellGroup(0,0)
-
-
-#grid = [[None, ]*9]*9
 grid = [ [None for k in range(0, 9)] for i in range(0,9)]
 
 class CellGroup(object):
